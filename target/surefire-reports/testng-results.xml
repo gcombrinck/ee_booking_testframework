@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-29T10:41:21 SAST" name="Surefire suite" finished-at="2020-04-29T10:41:49 SAST" duration-ms="27764">
+    <groups>
+    </groups>
+    <test started-at="2020-04-29T10:41:21 SAST" name="Surefire test" finished-at="2020-04-29T10:41:49 SAST" duration-ms="27764">
+      <class name="com.equalexperts.api.BookingsAPITests">
+        <test-method signature="makeBooking()[pri:0, instance:com.equalexperts.api.BookingsAPITests@1162410a]" started-at="2020-04-29T10:41:39 SAST" name="makeBooking" finished-at="2020-04-29T10:41:46 SAST" duration-ms="7328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- makeBooking -->
+        <test-method signature="getBookingByID()[pri:0, instance:com.equalexperts.api.BookingsAPITests@1162410a]" started-at="2020-04-29T10:41:48 SAST" name="getBookingByID" finished-at="2020-04-29T10:41:49 SAST" depends-on-methods="com.equalexperts.api.BookingsAPITests.makeBooking" duration-ms="650" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByID -->
+        <test-method signature="deleteBookingByID()[pri:0, instance:com.equalexperts.api.BookingsAPITests@1162410a]" started-at="2020-04-29T10:41:49 SAST" name="deleteBookingByID" finished-at="2020-04-29T10:41:49 SAST" depends-on-methods="com.equalexperts.api.BookingsAPITests.getBookingByID" duration-ms="366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingByID -->
+      </class> <!-- com.equalexperts.api.BookingsAPITests -->
+      <class name="com.equalexperts.ui.BookingTests">
+        <test-method is-config="true" signature="testUp()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:21 SAST" name="testUp" finished-at="2020-04-29T10:41:32 SAST" duration-ms="10494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:32 SAST" name="goHome" finished-at="2020-04-29T10:41:32 SAST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="createValidBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:32 SAST" name="createValidBooking" data-provider="getData" finished-at="2020-04-29T10:41:39 SAST" duration-ms="6983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GarthUI3004]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Combrinck]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2020-10-01]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[2020-10-30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createValidBooking -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:39 SAST" name="recordFailure" finished-at="2020-04-29T10:41:39 SAST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createValidBooking status=SUCCESS method=BookingTests.createValidBooking(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:46 SAST" name="goHome" finished-at="2020-04-29T10:41:46 SAST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="deleteBooking()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:46 SAST" name="deleteBooking" finished-at="2020-04-29T10:41:47 SAST" depends-on-methods="com.equalexperts.ui.BookingTests.createValidBooking" duration-ms="152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBooking -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:47 SAST" name="recordFailure" finished-at="2020-04-29T10:41:47 SAST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=deleteBooking status=SUCCESS method=BookingTests.deleteBooking()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.equalexperts.ui.BookingTests@b09fac1]" started-at="2020-04-29T10:41:47 SAST" name="tearDown" finished-at="2020-04-29T10:41:48 SAST" duration-ms="1303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.equalexperts.ui.BookingTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

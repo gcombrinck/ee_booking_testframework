@@ -1,0 +1,3 @@
+com\equalexperts\BaseTests.class
+com\equalexperts\api\BookingsAPITests.class
+com\equalexperts\ui\BookingTests.class

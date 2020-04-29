@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Booking Test Suite">
+    <test name="UI_Tests">
+        <classes>
+            <class name="com.equalexperts.ui.BookingTests">
+            </class>
+        </classes>
+    </test>
+    <test name="API_Tests">
+        <classes>
+            <class name="com.equalexperts.api.BookingsAPITests">
+            </class>
+        </classes>
+    </test>
+</suite>
